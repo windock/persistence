@@ -1,4 +1,4 @@
-require 'lib/persistence/version'
+require 'persistence/version'
 
 desc 'build a gem release and push it to dev'
 task :release do
@@ -12,7 +12,6 @@ Rake::TestTask.new do |t|
   t.libs << "test"
   t.test_files = FileList['test/*_test.rb']
   t.verbose = true
-  t.options = '--runner=specdox'
 end
 
 begin

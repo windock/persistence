@@ -1,4 +1,4 @@
-require 'test/interfaces'
+require_relative 'interfaces'
 require 'persistence/file/hash_repository'
 require 'tmpdir'
 require 'fileutils'

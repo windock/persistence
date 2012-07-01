@@ -1,4 +1,4 @@
-require 'test/interfaces'
+require_relative 'interfaces'
 require 'persistence/sequel'
 
 describe "Persistence::Sequel::IdentitySetRepository" do

@@ -1,4 +1,4 @@
-require 'test/interfaces'
+require_relative 'interfaces'
 require 'persistence/in_memory'
 
 describe "Persistence::InMemory::Cell" do

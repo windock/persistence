@@ -1,4 +1,4 @@
-require 'test/helpers'
+require_relative 'helpers'
 require 'persistence/interfaces'
 require 'thin_models/struct/identity'
 
